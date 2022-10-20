@@ -91,6 +91,13 @@
         font-size: 20px;
         line-height: 29px;
     }
+    .active-inner{
+        padding-bottom: 110px;
+    }
+    .arrow-down{
+        bottom: 0;
+        right: 20px;
+    }
     .active-title{
         font-weight: 500;
         font-size: 20px;
@@ -136,6 +143,9 @@
         font-size: 30px;
         padding-bottom: 40px;
         line-height: 40px;     
+    }
+    .course-for-title::after{
+        content: url('../img/course-for-underline-mini.svg');
     }
     .course-for-inner{
         padding-bottom: 80px;
