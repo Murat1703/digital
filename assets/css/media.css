@@ -1,0 +1,289 @@
+@media (max-width: 1199px){
+    .price-cards{
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 60px 0;
+    }    
+}
+@media (max-width: 900px){
+    .burger-menu{
+        display: block;
+    }  
+    .header-menu-list li{
+        display: none;
+    }
+    .course-programm-card-list{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .about-teacher-inner{
+        flex-wrap: wrap-reverse;
+    }
+    .__third_card{
+        grid-column: 1;
+        width: 100%;
+    }
+    .arrow-down{
+        right: 150px;
+        bottom: 100px;
+    }
+}
+@media (max-width: 600px){
+    .price-card-item{
+        width: 100%;
+    }
+
+}
+@media (max-width: 760px){
+    .about-video-course{
+        width: 100%;
+    }    
+    .course-for-title::after {
+        left: 0;
+    }
+    .dignity-cards{
+        grid-template-columns: auto;
+    }
+    .about-teacher-title::after{
+        left:0;
+    }
+    .course-programm-title::after{
+        left: 0;
+    }
+    .main-text-block{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 55px;      
+    }
+    .underline-main-text::after{
+        content: url('../img/main-underline-mini.svg');
+        top: 80px;
+    }
+    .main-inner{
+        padding-bottom: 43px;
+    }
+    .dignity-title{
+        padding-bottom: 37px;
+    }
+    .dignity-inner{
+        padding-bottom: 37px;
+    }
+    .dignity-card-about{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .active-title{
+        padding-right: 35px;
+    }
+    .main-text-about{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;    
+    }
+    .main-text-subtitle{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .dignity-title{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .active-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;    
+    }
+    a.main-btn{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 18.5px 32px;    
+    }
+    a.second-btn{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;    
+        margin-left: 25px;
+    }
+    .about-teacher-title{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px; 
+        padding-bottom: 43px;
+    }
+    .about-teacher-title::after{
+        content: url('../img/about-teacher-underline-mini.png');
+    }
+    .about-teacher-subtitle{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        font-style: normal;
+    }
+    .about-teacher-inner{
+        padding-bottom: 80px;
+    }
+    .about-teacher-info{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .course-for-title{
+        font-weight: 600;
+        font-size: 30px;
+        padding-bottom: 40px;
+        line-height: 40px;     
+    }
+    .course-for-inner{
+        padding-bottom: 80px;
+    }
+    .course-for-item{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .course-programm-title{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px; 
+        padding-bottom: 40px;   
+    }
+    .card-title{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;    
+    }
+    .card-list{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;   
+    }
+    .about-course-video-title{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;   
+        padding-bottom: 25px; 
+    }
+    .price-cardds{
+        padding-top: 30px;
+    }
+    .price-title{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;    
+    }
+    .price-cards{
+        padding: 60px 0 80px 0;
+        gap: 45px 0;
+    }
+    .price-card-item{
+        display: block;
+    }
+    .price-card-title,
+    .price-card-price{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;    
+    }
+    .price-card-right li{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;    
+    }
+    .price-card-right ul{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main-text-editor{
+        top: 0;
+    }
+    .course-for-items{
+        grid-template-columns: auto;
+    }
+    .why-title{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 20px;    
+    }
+    .why-title::after{
+        content: url('../img/why-under-line-mini.png');
+        left: 0;
+    }
+    .why-card-txt{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;    
+    }
+    .why-cards{
+        grid-template-columns: auto;
+        padding-bottom: 30px;
+    }
+    .why-present{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;    
+    }
+    .why-present::after{
+        top: -50px;
+    }
+    .why-inner{
+        padding-bottom: 80px;
+    }
+    .teacher-works-title{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 44px;    
+    }
+    .teacher-works-inner{
+        padding-bottom: 70px;
+    }
+    .form-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;    
+    }
+    .form-subtitle{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 35px;
+    }
+    .money-icon{
+        display: none;
+    }
+    .course-programm-inner{
+        padding-bottom: 30px;
+    }
+    .video-main-btn{
+        padding-bottom: 80px;
+    }
+    img.star-icon{
+        bottom: 0;
+        right: 150px;
+    }
+    img.comp-icon{
+        bottom: 0;
+        right: 15px;
+        width: 80px;
+    }
+    input.main-btn{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 20px 30px;    
+    }
+}
+
+@media (max-width: 500px){
+    input.email, textarea.textarea{
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
