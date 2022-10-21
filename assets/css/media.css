@@ -52,6 +52,9 @@
     .price-card-item{
         width: 100%;
     }
+    .underline-main-text::after{
+        top: 50px;
+    }
 
 }
 @media (max-width: 760px){
@@ -406,7 +409,7 @@
         line-height: 26px;
     }
 }
-@media (max-width: 390px){
+@media (max-width: 370px){
     .underline-main-text::after{
         content: url('../img/main-underline-mini.svg');
         top: 85px;
