@@ -12,6 +12,10 @@
     .header-menu-list li{
         display: none;
     }
+    .header-inner{
+        background: #fff;
+        z-index: 10;
+    }
     .course-programm-card-list{
         grid-template-columns: auto;
         justify-content: center;
@@ -263,7 +267,8 @@
         padding-bottom: 20px;
     }
     .main-text-editor{
-        top: 0;
+        top: -60px;
+        width: 65px;    
     }
     .course-for-items{
         grid-template-columns: auto;
@@ -350,11 +355,18 @@
         padding-left: 0;
         padding-top: 10px;
     }
-    .footer-menu-list li{
+    .footer-menu-list li a{
         font-weight: 400;
-        font-size: 16px;
+        font-size: 13px;
         line-height: 26px;
         color: #221F1C;  
+    }
+    .contacs-p,
+    .adress{
+        font-size: 13px;
+    }
+    .adress{
+        padding-top: 5px;
     }
     .footer-contacts-title{
         font-size: 18px;
@@ -372,8 +384,6 @@
     }
     .footer-inner{
         gap: 0 15px;
-        padding-left: 5px;
-        padding-right: 5px;
     }
     .__contacts-footer-menu{
         display: flex;

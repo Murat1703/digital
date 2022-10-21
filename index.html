@@ -20,16 +20,16 @@
 </head>
 <body>
 
-    <header class="header-wrapper">
+    <header class="header-wrapper" id="header">
         <div class="header-inner container">
             <div class="header-logo"> <a href="#"><img src="assets/img/logo.svg" alt="main-logo" data-aos="fade-down"></a></div>
             <div class="header-menu-list">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О преподавателе</a></li>
-                <li><a href="#">Курс</a></li>
-                <li><a href="#">Тарифы</a></li>
-                <li><a href="#">Преимущества</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#about-teacher">О преподавателе</a></li>
+                <li><a href="#course">Курс</a></li>
+                <li><a href="#price">Тарифы</a></li>
+                <li><a href="#why-we">Преимущества</a></li>
+                <li><a href="#contacts">Контакты</a></li>       
             </div>
             <div class="burger-menu">
                 <div class="burger-menu-container">
@@ -41,13 +41,22 @@
         </div>
     </header>
 
+    <div class="mobile-menu">
+        <li><a href="#main">Главная</a></li>
+        <li><a href="#about-teacher">О преподавателе</a></li>
+        <li><a href="#course">Курс</a></li>
+        <li><a href="#price">Тарифы</a></li>
+        <li><a href="#why-we">Преимущества</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+    </div>
+
     <section class="main-wrapper">
-        <div class="main-inner container">
-            <div class="main-text-block">
+        <div class="main-inner container" id="main">
+            <div class="main-text-block" data-aos="fade-up" data-aos-duration="1000">
                 Самый выгодный курс по <span class="underline-main-text" >веб-дизайну!</span>
                 <img class="main-text-editor" src="assets/img/editor.svg" alt="editor">
             </div>
-            <div class="main-text-about" data-aos="fade-up">
+            <div class="main-text-about" data-aos="fade-up" data-aos-duration="1000">
                 Научись делать деньги в интернете всего за 7 миниуроков!
             </div>
             <div class="main-text-arrow" data-aos="fade-up">
@@ -62,15 +71,15 @@
 
     <section class="dignity-wrapper">
         <div class="dignity-inner container">
-            <div class="dignity-title" data-aos="fade-in">Приобретай наш курс по веб-дизайну:</div>
+            <div class="dignity-title" data-aos="fade-in" data-aos-duration="1000">Приобретай наш курс по веб-дизайну:</div>
             <div class="dignity-cards">
-                <div class="dignity-card-item" data-aos="flip-left">
+                <div class="dignity-card-item" data-aos="flip-left" data-aos-duration="1000">
                     <span class="dignity-card-about">7 уроков по 15 минут — оптимальное время для усвоения нового навыка.</span> 
                 </div>
-                <div class="dignity-card-item __second_card" data-aos="flip-left">
+                <div class="dignity-card-item __second_card" data-aos="flip-left"  data-aos-duration="1000" data-aos-delay="300">
                     <span class="dignity-card-about __about-teacher">Домашние задания — у нас строгий преподаватель, он всё проверет.</span> 
                 </div>
-                <div class="dignity-card-item __third_card" data-aos="flip-left">
+                <div class="dignity-card-item __third_card" data-aos="flip-left"  data-aos-duration="1000" data-aos-delay="400">
                     <span class="dignity-card-about __about-teacher" >Домашние задания — у нас строгий преподаватель, он всё проверет.</span> 
                 </div>
             </div>
@@ -79,7 +88,7 @@
 
     <section class="active-wrapper">
         <div class="active-inner container">
-            <div class="active-title" data-aos="fade-in">
+            <div class="active-title" data-aos="fade-in" data-aos-duration="1000">
                 Лови момент — приобретай курс «Веб-дизайнер по цене тортика!
             </div>
             <div class="active-buttons">
@@ -91,20 +100,20 @@
     </section>
 
     <section class="about-teacher-wrapper">
-        <div class="about-teacher-inner container">
+        <div class="about-teacher-inner container" id="about-teacher">
             <div class="about-text-block">
-                <div class="about-teacher-title" data-aos="fade-in">О преподавателе</div>
+                <div class="about-teacher-title" data-aos="fade-in" data-aos-duration="1000">О преподавателе</div>
                 <div class="about-teacher-subtitle">Cвета — мастер дизайна и наш преподаватель курса. 
                     Она будет с тобой на протяжении всех <span> 7 уроков.</span>
                 </div>
-                <div class="about-teacher-info">
+                <div class="about-teacher-info" data-aos="fade-zoon-in" data-aos-duration="1000">
                     <p>Опыт в дизайне — 2,5 года.</p>
                     <p>В профкопилке: 
                         <li class="prof-exp">курсы Skillbox и Uprock,</li>
                         <li class="prof-exp">более 30-ти готовых проектов, </li> 
                         <li class="prof-exp">работа в крупной компании.</li>
                     </p>
-                    <p class="last-paragraf-prof">Сейчас работает над личными проектами, ведет уроки о веб-дизайне и помогает нам с дизайном.</p>
+                    <p class="last-paragraf-prof" data-aos="fade-zoon-in" data-aos-duration="1000">Сейчас работает над личными проектами, ведет уроки о веб-дизайне и помогает нам с дизайном.</p>
                 </div>
             </div>
             <div class="about-image-block">
@@ -116,15 +125,15 @@
 
     <section class="course-for-wrapper">
         <div class="course-for-inner container">
-            <div class="course-for-title" data-aos="fade-up">
+            <div class="course-for-title" data-aos="fade-up" data-aos-duration="1000">
                 Курс для тех, кто хочет…
             </div>
             <div class="course-for-items">
-                <div class="course-for-item" data-aos="flip-right" >Научится создавать сайты,</div>
-                <div class="course-for-item" data-aos="flip-right">Начать карьеру в дизайне,</div>
-                <div class="course-for-item"data-aos="flip-right">Сделать самостоятельно сайт 
+                <div class="course-for-item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="100">Научится создавать сайты,</div>
+                <div class="course-for-item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">Начать карьеру в дизайне,</div>
+                <div class="course-for-item"data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500">Сделать самостоятельно сайт 
                     для своего бизнеса,</div>
-                <div class="course-for-item" data-aos="flip-right">Выйти на заработок в онлайн
+                <div class="course-for-item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="700">Выйти на заработок в онлайн
                     от 100 000 тенге за первые заказы.</div>
 
             </div>
@@ -132,10 +141,10 @@
     </section>
 
     <section class="course-programm">
-        <div class="course-programm-inner container">
-            <div class="course-programm-title" data-aos="fade-in">Программа курса</div>
+        <div class="course-programm-inner container" id="course">
+            <div class="course-programm-title" data-aos="fade-in" data-aos-duration="1000">Программа курса</div>
             <div class="course-programm-card-list">
-                <div class="course-programm-card-item" data-aos="flip-right">
+                <div class="course-programm-card-item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
                     <div class="course-programm-card-item-content">
                         <div class="card-title">Основы веб-дизайна:</div>
                         <ul class="card-list">
@@ -145,7 +154,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="course-programm-card-item __practic" data-aos="flip-right">
+                <div class="course-programm-card-item __practic" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600">
                     <div class="course-programm-card-item-content">
                         <div class="card-title">Практическое задание:</div>
                         <ul class="card-list">
@@ -155,7 +164,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="course-programm-card-item __instruments" data-aos="flip-right">
+                <div class="course-programm-card-item __instruments" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="900">
                     <div class="course-programm-card-item-content __instruments-space">
                         <div class="card-title">Инструменты веб- дизайнера:</div>
                         <ul class="card-list">
@@ -165,7 +174,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="course-programm-card-item __figma" data-aos="flip-right">
+                <div class="course-programm-card-item __figma" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="1200">
                     <div class="course-programm-card-item-content">
                         <div class="card-title">Популярная программа Figma:</div>
                         <ul class="card-list">
@@ -181,7 +190,7 @@
 
     <section class="about-course-video-wrapper">
         <div class="about-course-video-inner container">
-            <div class="about-course-video-title" data-aos="fade-in">Подробнее о курсе:</div>
+            <div class="about-course-video-title" data-aos="fade-in" data-aos-duration="1000">Подробнее о курсе:</div>
             <div class="video-course">
                 <img src="assets/img/video-about-course.png" class="about-video-course" alt="video-screenshot">
                 <div class="play-btn"><img src="assets/img/play-video.svg" alt="play-btn"></div>
@@ -191,12 +200,12 @@
     </section>
 
     <section class="price-wrapper">
-        <div class="price-inner container">
-            <div class="price-title" data-aos="fade-down">
+        <div class="price-inner container" id="price">
+            <div class="price-title" data-aos="fade-down" data-aos-duration="1000">
                 Тарифы
             </div>
             <div class="price-cards">
-                <div class="price-card-item" data-aos="flip-left">
+                <div class="price-card-item" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
                     <div class="price-card-left">
                         <div class="price-card-title">Стандарт</div>
                         <div class="price-card-price">10000 KZT</div>
@@ -210,7 +219,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="price-card-item" data-aos="flip-left">
+                <div class="price-card-item" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="500">
                     <div class="price-card-left __comfort-right">
                         <div class="price-card-title">Комфорт</div>
                         <div class="price-card-price">25000 KZT</div>
@@ -231,37 +240,37 @@
     </section>
 
     <section class="why-wrapper">
-        <div class="why-inner container">
-            <div class="why-title" data-aos="fade-in">Почему стоит выбрать курс от Web Digital?</div>
+        <div class="why-inner container" id="why-we">
+            <div class="why-title" data-aos="fade-in" data-aos-duration="1000">Почему стоит выбрать курс от Web Digital?</div>
             <div class="why-cards">
-                <div class="why-card-item">
+                <div class="why-card-item" data-aos="fade-zoom-in" data-aos-duration="1000" data-aos-delay="300">
                     <img src="assets/img/1.svg" alt="icon" class="symbol-of-card">
                     <p class="why-card-txt">Уроки от практикующего дизайнера со стажем, а значит во время курса ты узнаешь последние фишки в дизайне.</p>
                 </div>
-                <div class="why-card-item">
+                <div class="why-card-item" data-aos="fade-zoom-in" data-aos-duration="1000" data-aos-delay="500">
                     <img src="assets/img/2.svg" alt="icon" class="symbol-of-card">
                     <p class="why-card-txt">Мы не просто обучаем, а работаем 
                     на результат — каждый ученик получит знания!</p>
                 </div>
-                <div class="why-card-item">
+                <div class="why-card-item" data-aos="fade-zoom-in" data-aos-duration="1000" data-aos-delay="700">
                     <img src="assets/img/3.svg" alt="icon" class="symbol-of-card">
                     <p class="why-card-txt">Мы не просто обучаем, а работаем 
                     на результат — каждый ученик получит знания!</p>
                 </div>
-                <div class="why-card-item">
+                <div class="why-card-item" data-aos="fade-zoom-in" data-aos-duration="1000" data-aos-delay="900">
                     <img src="assets/img/4.svg" alt="icon" class="symbol-of-card">
                     <p class="why-card-txt">Мы вышлем тебе обширную базу советов 
                         по веб-дизайну на будущее ;)</p>
                 </div>
             </div>
-            <div class="why-present"> <span class="bonus">БОНУС:</span>  мы возьмем на работу <span class="bonus-color">лучшего ученика</span> курса при появлении
+            <div class="why-present" data-aos="fade-down"> <span class="bonus">БОНУС:</span>  мы возьмем на работу <span class="bonus-color">лучшего ученика</span> курса при появлении
                 свободного проекта в Web Digital.</div>
         </div>
     </section>
 
     <section class="teacher-works-wrapper">
         <div class="teacher-works-inner container">
-            <div class="teacher-works-title" data-aos="fade-in">Работы преподавателя</div>
+            <div class="teacher-works-title" data-aos="fade-in" data-aos-duration="1000">Работы преподавателя</div>
             <div class="responsive">
                 <div class="slider-item"><img src="assets/img/slider/works-slide1.png" alt="slide1"></div>
                 <div class="slider-item __item-mobile"><img src="assets/img/slider/works-slide2.png" alt="slide1"><img src="assets/img/slider/works-slide2-mobile.png" class="mobile-view" alt=""></div>
@@ -278,10 +287,10 @@
 
     <section class="form-wrapper">
         <div class="form-inner container">
-            <div class="form-title" data-aos="fade-in">
+            <div class="form-title" data-aos="fade-in" data-aos-duration="1000">
                 Курс <span>«Веб-дизайнер с 0»</span> от Web Digital— твой реальный шаг к прибыльной работе в сети.
             </div>
-            <div class="form-subtitle">Успей записаться на курс с 80% скидкой до конца октября и выгодно шагни в будущее с новой профессией!</div>
+            <div class="form-subtitle" data-aos-duration="1000">Успей записаться на курс с 80% скидкой до конца октября и выгодно шагни в будущее с новой профессией!</div>
             <form action="">
                 <input type="email" class="email" placeholder="email">
                 <textarea class="textarea" placeholder="Задайте ваш вопрос"></textarea>
@@ -292,25 +301,27 @@
         </div>
     </section>
 
+    <a href="#header" class="go-to-top"><img src="assets/img/arrow-up.svg" alt="arrow-up"></a>
+
     <footer class="footer-wrapper">
-        <div class="footer-inner container">
+        <div class="footer-inner container" id="contacts">
             <div class="footer-menu-block">
                 <div class="footer-img"><img src="assets/img/logo.svg" alt="Logo"></div>
                 <div class="footer-menu-list">
-                    <li>Главная</li>
-                    <li>О Преподавателе</li>
-                    <li>Курс</li>
-                    <li>Тарифы</li>
-                    <li>Преимущества</li>
-                    <li>Контакты</li>
+                    <li><a href="#main">Главная</a></li>
+                    <li><a href="#about-teacher">О преподавателе</a></li>
+                    <li><a href="#course">Курс</a></li>
+                    <li><a href="#price">Тарифы</a></li>
+                    <li><a href="#why-we">Преимущества</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
                 </div>
             </div>
             <div class="footer-menu-block __contacts-footer-menu">
                 <div class="footer-img __social-icons"><img src="assets/img/tg.svg" alt="tg-icon" class="social-icon"><img src="assets/img/ig.svg" alt="tg-icon" class="social-icon"></div>
                 <div class="footer-menu-list">
                     <div class="footer-contacts-title">Связаться с нами:</div>
-                    <p class="contacts-p">+7 707 333 43 86</p>
-                    <p class="contacts-p">info@webdigital.kz</p>
+                    <p class="contacts-p"><a href="tel:+77073334386">+7 707 333 43 86</a></p>
+                    <p class="contacts-p"><a href="mailto:info@webdigital.kz"> info@webdigital.kz</a></p>
                     <p class="adress">Республика Казахстан, г.Алматы, Назарбaева </p>
                 </div>
             </div>
