@@ -1,3 +1,8 @@
+$(document).ready(function()
+{
+ AOS.init();
+});
+
 $('.responsive').slick({
 	dots: true,
 	infinite: true,
