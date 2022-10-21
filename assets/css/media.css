@@ -77,7 +77,7 @@
     }
     .underline-main-text::after{
         content: url('../img/main-underline-mini.svg');
-        top: 80px;
+        top: 30px;
     }
     .main-inner{
         padding-bottom: 43px;
@@ -404,5 +404,11 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 26px;
+    }
+}
+@media (max-width: 390px){
+    .underline-main-text::after{
+        content: url('../img/main-underline-mini.svg');
+        top: 85px;
     }
 }
